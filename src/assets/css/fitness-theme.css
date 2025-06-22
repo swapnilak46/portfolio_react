@@ -1,0 +1,71 @@
+/* Custom CSS variables for Fitness Instructor theme */
+:root {
+    --primary-color: #2D86F0;
+    --primary-color-rgb: 45, 134, 240;
+}
+
+/* Timeline title background gradient using primary color */
+.d_timeline-title {
+    background: linear-gradient(90deg, rgba(45, 134, 240, 1) 0%, rgba(111, 170, 243, 0.8) 50%, rgba(197, 217, 241, 0.6) 100%) !important;
+}
+
+.dark-scheme .d_timeline-title {
+    background: linear-gradient(90deg, rgba(45, 134, 240, 1) 0%, rgba(111, 170, 243, 0.8)  50%, rgba(197, 217, 241, 0.6) 100%) !important;
+}
+.d_timeline-title.s2:before{
+    color: #2D86F0;
+}
+.dark-scheme .owl-prev,
+.dark-scheme .owl-next {
+    background: #2D86F0 !important;
+    color: #2D86F0;
+}
+.d-bar .d-progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -36px;
+  color: #2D86F0;
+  font-size: 12px;
+  font-weight: 700;
+  background: #202020;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.d-bar .d-progress-line span {
+  position: absolute;
+  background: #2D86F0;
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+footer {
+    /*background:url('/images/logo-big.png') -50% center no-repeat var(--primary-color) !important;*/
+    color: rgba(255, 255, 255, .8) ;
+    padding: 20px 0;
+    border-top: solid 1px rgba(0, 0, 0, .1);
+      background:black !important;
+}
+.dark-scheme footer {
+    background: black !important;
+    border-top: solid 1px rgba(255, 255, 255, .1);
+}
+
+footer.footer-light {
+    color: #202020;
+    background: #202020 !important;
+}
+
+footer a {
+    color: #202020;
+}
+
+.dark-scheme footer a {
+    color: #202020;
+}
+footer{
+    background: #202020 !important; 
+}
+

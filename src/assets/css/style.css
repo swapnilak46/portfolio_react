@@ -311,7 +311,7 @@ header.smaller #mainmenu ul ul {
 }
 
 header.smaller {
-    background: #171A1D;
+    background: #171A1D !important;
     top: 0px;
     padding: 0;
     position: fixed;
@@ -1477,19 +1477,19 @@ section.no-bg,
 
 footer {
     /*background:url('/images/logo-big.png') -50% center no-repeat var(--primary-color) !important;*/
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .8) ;
     padding: 20px 0;
     border-top: solid 1px rgba(0, 0, 0, .1);
 }
 
 .dark-scheme footer {
-    background: rgba(0, 0, 0, .1);
-    border-top: solid 1px rgba(255, 255, 255, .1);
+    background: rgba(0, 0, 0, .1) ;
+    border-top: solid 1px rgba(5, 5, 5, 0.1);
 }
 
 footer.footer-light {
     color: #9da1a5;
-    background: #ffffff !important;
+    background: #ffffff ;
 }
 
 footer a {

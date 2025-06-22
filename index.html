@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/images/icon.png" />
+  <link rel="icon" type="image/png" href="/images-fitness-instructor/icon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Doe - Personal Portfolio Template</title>
-  <meta name="description" content="John Doe - Personal Portfolio Template">
+  <title>Sophia Martinez - Fitness Instructor</title>
+  <meta name="description" content="Sophia Martinez - Professional Fitness Instructor and Personal Trainer">
 
   <!-- CSS Files
     ================================================== -->
@@ -29,5 +29,33 @@
   <script src="/js/validation-contact.js"></script>
   <script src="/gsap/gsap.min.js"></script>
   <script src="/gsap/Draggable.min.js"></script>
+  
+  <!-- Custom script for typed animation -->
+  <script>
+    // Wait for DOM and libraries to load
+    document.addEventListener('DOMContentLoaded', function() {
+      // Check if jQuery and typed plugin are loaded
+      if (typeof jQuery !== 'undefined' && jQuery.fn.typed) {
+        jQuery(document).ready(function() {
+          jQuery(function() {
+            // jquery typed plugin
+            jQuery(".typed").typed({
+              stringsElement: jQuery('.typed-strings'),
+              typeSpeed: 100,
+              backDelay: 500,
+              loop: true,
+              contentType: 'html', // or text
+              // defaults to false for infinite loop
+              loopCount: false,
+              callback: function() { null; },
+              resetCallback: function() { 
+                // newTyped function would be defined if needed
+              }
+            });
+          });
+        });
+      }
+    });
+  </script>
 </body>
 </html>
