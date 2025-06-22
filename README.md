@@ -73,6 +73,4 @@ npm run build
 npm run preview
 ```
 
-## Credits
 
-Original HTML Template: John Doe by Designesia
